@@ -6,14 +6,14 @@
 
 @font-face {
   font-family: open-sans-regular;
-  src: url(/fonts/OpenSans-Regular.ttf) format("ttf"), url(/fonts/OpenSans-Regular.woff) format("woff"), url(/fonts/OpenSans-Regular.woff2) format("woff2");
+  src: url(../fonts/OpenSans-Regular.ttf) format("ttf"), url(../fonts/OpenSans-Regular.woff) format("woff"), url(../fonts/OpenSans-Regular.woff2) format("woff2");
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
   font-family: open-sans-bold;
-  src: url(/fonts/OpenSans-Bold.ttf) format("ttf"), url(/fonts/OpenSans-Bold.woff) format("woff"), url(/fonts/OpenSans-Bold.woff2) format("woff2");
+  src: url(../fonts/OpenSans-Bold.ttf) format("ttf"), url(../fonts/OpenSans-Bold.woff) format("woff"), url(../fonts/OpenSans-Bold.woff2) format("woff2");
   font-weight: 700;
   font-style: bold;
 }
@@ -39,7 +39,7 @@ a {
   /* padding: 8px 0 26px; */
   margin-bottom: 60px;
   width: 100%;
-  background-image: url(/images/banner-bg.jpg);
+  background-image: url(../images/banner-bg.jpg);
   background-repeat: no-repeat;
   background-position: top center;
   background-size: cover;
@@ -199,19 +199,19 @@ a {
 }
 
 .trends-article-one {
-  background-image: url(/images/trend1.jpg);
+  background-image: url(../images/trend1.jpg);
 }
 
 .trends-article-two {
-  background-image: url(/images/trend2.jpg);
+  background-image: url(../images/trend2.jpg);
 }
 
 .trends-article-three {
-  background-image: url(/images/trend3.jpg);
+  background-image: url(../images/trend3.jpg);
 }
 
 .trends-article-four {
-  background-image: url(/images/trend4.jpg);
+  background-image: url(../images/trend4.jpg);
 }
 
 .trends-description {
@@ -362,7 +362,7 @@ a {
   height: 100%;
   min-width: 49px;
   border: none;
-  background-image: url(/svg/search.svg);
+  background-image: url(../svg/search.svg);
   background-repeat: no-repeat;
   background-size: 16px;
   background-position: center;
@@ -553,23 +553,23 @@ a {
 }
 
 .social-icon_twitter {
-  background-image: url("/svg/004-twitter.svg");
+  background-image: url("../svg/004-twitter.svg");
 }
 
 .social-icon_pinterest {
-  background-image: url("/svg/001-pinterest.svg");
+  background-image: url("../svg/001-pinterest.svg");
 }
 
 .social-icon_facebook {
-  background-image: url("/svg/002-facebook-logo.svg");
+  background-image: url("../svg/002-facebook-logo.svg");
 }
 
 .social-icon_instagram {
-  background-image: url("/svg/005-instagram.svg");
+  background-image: url("../svg/005-instagram.svg");
 }
 
 .social-icon_tumblr {
-  background-image: url("/svg/003-tumblr.svg");
+  background-image: url("../svg/003-tumblr.svg");
 }
 
 .copyright {
@@ -636,7 +636,7 @@ a {
   color: #000000;
   background-color: #f4f7f6;
   border: none;
-  background-image: url(/svg/form-arrows.svg);
+  background-image: url(../svg/form-arrows.svg);
   background-repeat: no-repeat;
   background-size: 10px;
   background-position: right 10px center;
@@ -663,7 +663,7 @@ a {
   margin-right: 5px;
   width: 15px;
   height: 15px;
-  background-image: url("/svg/form-empty-circle.svg");
+  background-image: url("../svg/form-empty-circle.svg");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: 15px;
@@ -677,7 +677,7 @@ a {
 }
 
 .radio:checked~.radio-group-text::before {
-  background-image: url("/svg/form-circle.svg");
+  background-image: url("../svg/form-circle.svg");
 }
 
 .field {
@@ -707,13 +707,13 @@ textarea:focus {
   display: block;
   width: 18px;
   height: 18px;
-  background-image: url(/svg/form-x.svg);
+  background-image: url(../svg/form-x.svg);
   background-size: 18px;
 }
 
 @media (min-width: 768px) and (max-width: 1124px) {
   .header {
-    background-image: url(/images/banner-bg-tablet.jpg);
+    background-image: url(../images/banner-bg-tablet.jpg);
     background-position: bottom;
     margin-bottom: 40px;
   }
@@ -776,7 +776,7 @@ textarea:focus {
 @media (max-width: 767px) {
   .header {
     padding-top: 0;
-    background-image: url(/images/banner-mobile.jpg);
+    background-image: url(../images/banner-mobile.jpg);
     margin-bottom: 40px;
   }
 
